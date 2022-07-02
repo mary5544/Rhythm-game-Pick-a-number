@@ -1,0 +1,38 @@
+@import './font.css';
+@import './reset.css';
+
+.contents{
+  text-align: center;
+  margin-bottom: 100px;
+  width: 600px;
+}
+.contents > .Main_ImgBox{
+  width: 250px;
+  height: 250px;
+  background-image: url('../img/pngegg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.contents > h2{
+  padding-top: 25px;
+  font-size: 1.6em;
+}
+.contents > input[type='button']{
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: .3s ease;
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+  border-radius: 6px;
+
+}
+.contents > input[type='button']:hover{
+  transform: scale(.96);
+  background-color: #3f3f3f;
+}
+
+.contents > #Output_Num *{font-size: 1.4em;}
